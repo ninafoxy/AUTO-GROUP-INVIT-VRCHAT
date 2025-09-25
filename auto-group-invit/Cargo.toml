@@ -1,0 +1,12 @@
+[package]
+name = "vrc-auto-inviter"
+version = "1.0.0"
+edition = "2025"
+
+[dependencies]
+futures = "0.3.31"
+reqwest = { version = "0.12", features = ["json", "socks"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["preserve_order"] }
+tokio = { version = "1", features = ["full"] }
+toml = { version = "0.8", features = ["preserve_order"] }
