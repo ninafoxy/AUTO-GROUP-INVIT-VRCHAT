@@ -8,7 +8,7 @@ const CHARACTER_SET: &[char] = &[
     'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 const BASE_URL: &str = "https://api.vrchat.cloud/api/1/";
-const USER_AGENT: &str = "VRCAI/1.0 support@vrchat.com";
+const USER_AGENT: &str = "VRCMISSLAV/1.0 hugo@uwu.ceo";
 const DEFAULT_TIMEOUT: std::time::Duration = std::time::Duration::from_secs(10);
 
 #[derive(Debug, Deserialize)]
